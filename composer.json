@@ -1,0 +1,20 @@
+{
+    "name": "justary/my-http",
+    "description": "this is a test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr.justary",
+            "email": "justary@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    "psr-4": {
+      "Carry\\Rose\\": "src/Rose",
+      "Carry\\Lily\\": "src/Lily"
+    }
+  }
+}
